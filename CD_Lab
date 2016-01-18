@@ -1,0 +1,108 @@
+Programming Assignments
+
+1.   Consider the   following regular expressions:
+a) (0 + 1)* + 0*1*
+b) (ab*c + (def)+ + a*d+e)+
+c) ((a + b)*(c + d)*)+ + ab*c*d
+Write separate programs for each of the regular expressions mentioned above.
+
+
+2.  Design a Lexical analyzer for identifying different types of token used in C language.   
+[Note that the reserved keywords such as   if, else, class, struct etc must be reported as invalid identifiers. C   allows identifier names to begin with underscore character too. Further, the real numbers can also be expressed in the   form 1.75e-30 which is     1.75 x 10-30. ]
+
+3. Given a text-file which contains some regular expressions, with only one RE in each line of the file. Write a program which accepts a string from the user and reports which regular expression accepts that string. If  no  RE  from the  file  accepts the  string, then   report  that  no RE  is  matched. 
+
+4*. Write a program which accepts a regular expression from the user and generates a regular grammar which is equivalent to the R.E.  entered   by user. The grammar will   be printed to a text file, with only one production rule in each line. Also, make sure that all production rules are displayed in compact forms e.g. the production rules: 
+S--> aB, S--> cd
+S--> PQ
+Should be   written as   
+S--> aB | cd | PQ
+And not as three different production   rules. Also, there should not be any repetition of production rules.
+
+5.  Write a program to eliminate left recursion.
+
+6.  Write a program for Recursive Descent Calculator.
+
+7.  Write a program that recognizes different types of English words.
+
+8.  Consider the following grammar:
+S --> ABC
+A--> abA | ab
+B--> b | BC
+C--> c | cC
+Following  any suitable parsing technique(prefer top-down), design  a  parser which  accepts  a string  and  tells whether the string is accepted by above  grammar  or  not.
+[This grammar is not as simple as it appears to be. Try to check if the string abbcc is accepted or not. It is accepted, but  improper logic of  parsing can cause  the  program to get  stuck or  go into  infinite loop !! The students are permitted to generate an equivalent grammar by removing ambiguities (if any) and immediate left-recursion from the given grammar.]
+
+9. Write a program which reads a left-recursive regular grammar, and removes left recursion from the grammar. 
+      For example: A possible input grammar is
+       S--> Sa
+       S-->a
+        Its output after removal of   left-recursion will   be
+        S--> aS
+        S-->a
+[Extra credit  will  be  given  if the code  is  able to handle  production  rules  of  the type  S--> Sa | a  etc.]
+
+10. Write  a  program which  accepts a  regular grammar with  no left-recursion, and  no null-production rules, and then it accepts a string and reports whether the string is accepted by  the grammar  or  not.
+
+11. Design a parser which accepts a mathematical expression (containing integers only). If the expression is valid, then evaluate the expression else report that the expression is invalid. 
+[Note: Design first the Grammar and then implement using Shift-Reduce parsing technique.  Your program should generate an output file clearly showing each step of parsing/evaluation of the intermediate sub-expressions. ]
+[Extra credit will be given if the program can handle advanced operations such as exponentiation, square-root, cube-root, logarithm etc]
+
+12. Implement  problem  no. 2  using  LEX  , and  problem  no. 8 and  11  using YACC .
+
+13*. Consider the following sample program written in a hypothetical language. 
+
+BEGIN
+     PRINT “HELLO”
+     INTEGER A, B, C
+     REAL   D, E
+     STRING X, Y
+     A := 2
+     B := 4
+     C := 6
+     D := -3.56E-8
+     E := 4.567
+     X := “text1”
+     Y := “hello there”
+     PRINT “Values of integers are [A], [B], [C]”
+     FOR I:= 1 TO 5  STEP +2
+         PRINT “[I]”
+     PRINT “Strings are [X] and [Y]”
+END
+
+Output of the above hypothetical program is
+
+HELLO
+Values of integers are 2, 4, 6
+1
+3
+5
+Strings are text1 and hello there. 
+
+Develop a grammar  for  this hypothetical  language, and  then write  a  compiler which  works  as  per  the  following  phases.
+
+The input is a program in the aforesaid hypothetical language. Filename has the extension as “.hyp” 
+Phase 1: Lexical analysis – checks whether the syntax is correct or not. If correct, proceed to Phase 2, else report the exact line number where the syntax is incorrect, and stop then and there.
+Phase 2: Generation of symbol table to handle the variables and their types etc. An output file called symtab.sym will be created which will contain the relevant data. This symbol table will be used while generating the intermediate code in next phase for detecting undeclared variables etc, and reporting linker errors appropriately. 
+ Phase 3: Using the result of lexical analysis, the input file and the symtab.sym –   generate the intermediate code – in C++ or Java. The intermediate code will be generated in a file called _interm.c or _interm.java as the case may be. As  explained  above, if  any  undeclared variables, or invalid values for  any variable are encountered, then generate a  linker  error  containing the exact  variable  name, and  line number, and  stop  immediately without  generating any  intermediate  code.
+The intermediate code must be compiled and run by the appropriate compiler (cc or javac) without any errors.
+[This is a very open-ended problem. The more features of language taken into consideration, will be given more the marks. Also, check for cases of undeclared variables, assignment of integer value to STRING variables, assigning of real numbers to INTEGERS etc]
+ 
+
+14. Develop a  parser which  accepts  a  string  and reports whether it is a valid  SQL  query statement  or  not.
+
+15*. Develop an interpreter which understands the assembly language instructions for Intel-8085 microprocessor, and executes the instructions correctly. User should be able to see the values in all relevant “registers” (registers will be implemented through variables) at any time.
+A sample working of the interpreter is shown below
+
+input:	MVI A, 34H
+output:	Valid statement. A = 0x34 = 52
+input:	MOV A
+output:	Invalid statement. No source register specified
+input:	INC A
+output:	Valid   statement. A = 0x35 = 53
+input:	MVI   B, 10H
+output:	Valid statement. B = 0x10 = 16
+input:	ADD   A, B
+output:	Valid statement. A = 0x45 = 69, B = 0x10 = 16
+input:	LXI   H, 1234H
+output:	Valid statement. Register pair HL. H = 0x12 = 18, L = 0x34 = 52
