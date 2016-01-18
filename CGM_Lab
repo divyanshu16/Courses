@@ -1,0 +1,21 @@
+1.   Write a program to display two big "M" one carded into the other using the character 'M' without using gotoxy() or other graphics  functions.
+2.   Write a program to display the horizontal mirror image of the ‘M’ generated in the above question no. 1. (Axis of reflection is vertical).
+3.   Write a program to display the vertical mirror image of the ‘M’ generated in the above question no. 1. (Axis of reflection is   horizontal).
+4.   Write a program to display circles of randomly changing diameters, colors and fill patterns at random positions on the screen.
+5.  Write a program to display triangles of randomly changing shapes, colors and fill patterns at random positions on the screen.
+6.  Plot a graph of sin(x), 0<x<360, using the character ‘*’.
+7.  Write  an  interactive  program that will create  a  database  of  marks  (out  of  50) of 10 students  in  Computer-Graphics.  Then display the marks and its percentile.  Finally display the   percentile using a 3D-Bar Graph.
+8.  WAP to Using DDA algorithm draw a line from (20, 10) to (30, 15).
+9.  WAP to Using Bresenham’s algorithm draw a line from (5, 7) (10, 10).
+10. WAP to draw a circle using Mid-Point algorithm.
+11. WAP to draw an ellipse using Mid-point ellipse algorithm.
+12. Generate a wheel structure. Rotate it.
+
+OPTIONAL
+13. Plot a graph of cos(x), 0<x<360, using the character ‘*’.
+14. Draw a Bar chart for monthly sales over a period of one year. Indicate the sales & months.
+15. Draw a line graph for monthly sales over a period of one year. Indicate the sales & months. 
+16. Write a program to simulate a Clock. (i) Analog   (ii) Digital Give a relevant heading using gothic font.
+17. An airplane is flying across the screen and a tank is moving on the ground and trying to hit the airplane with bombs. When a bomb strikes the airplane an explosion occurs. Represent this graphically.
+18. Animate a square that takes the shapes of a circle, triangle, Rectangle and back to square. The axis of rotation is at the center of the square & normal to the screen.
+                               
