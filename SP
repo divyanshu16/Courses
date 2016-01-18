@@ -1,0 +1,31 @@
+MODULE – I
+          Background: Introduction,
+          System Software and Machine Architecture,
+          The Simplified Instructional Computer (SIC),
+          Traditional (CISC) machines,
+          RISC Machines.
+
+MODULE – II & III
+          Assemblers: Basic Assembler Functions,
+          Machine – Dependent Assembler Features,
+          Machine – Independent Assembler Features,
+          Assembler Design Options,
+          Implementation Examples.
+
+MODULE – IV & V
+Loaders and Linkers: Basic Loader Functions, Machine - Dependent Loader Features, Machine – Independent Loader Features, Loader Design Options, Implementation Examples.
+
+MODULE – VI
+Macro Processors: Basic Macro Processor Functions, Machine – Independent Macro Processor Features, Macro Processor Design Options, Implementation Examples.
+
+MODULE – VII
+Software Engineering Issues: Introduction to Software Engineering Concepts, System Specifications, Procedural System Design, Object – Oriented Design, System Testing Strategies.
+
+Text Book:
+      1.	L. L. Beck – System Software – An Introduction to Systems Programming, 3rd Edn.,   
+            Pearson Education, New Delhi, 2004
+
+
+Reference Book:
+1. J.J. Donovan – System Programming, McGraw Hill , New Delhi, 1993.
+2. D.M. Dhamdhere – System Programming and Operating Systems, 2nd Edn., Tata McGraw Hill , New Delhi, 2000
