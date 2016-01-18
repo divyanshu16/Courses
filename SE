@@ -1,0 +1,51 @@
+MODULE – I 
+          Introduction: Some Definitions, 
+          FAQs about software engineering, 
+          the evolving role of software, 
+          Software characteristics, 
+          SW applications
+          Software Processes: Software process models,
+          Waterfall model,
+          the prototyping model, 
+          spiral model, 
+          RAD and Incremental model.
+
+MODULE – II
+          Project Management: Management activities,
+          Project planning, 
+          Project scheduling, 
+          Risk Management.
+
+MODULE – III
+          Software Requirements: Functional and non functional requirements, 
+          User requirements, 
+          System requirements,
+          the software requirements document.
+          IEEE standard of SRS, Quality of good SRS.
+          Requirement Engineering Process: Feasibility study,
+          Requirements elicitation and analysis, 
+          Requirements validation,
+          Requirement management.
+
+MODULE – IV
+Software Design: Design Concepts and Principles, Architectural Design, Object oriented Design, User interface design
+UML: Class diagram, Sequence diagram, Collaboration diagram
+
+MODULE – V
+Verification and Validation: Verification and Validation Planning, S/W inspection, static analysis.
+Software Testing : Testing functions, Test care design, White Box testing, Black box testing, Unit testing, Integration Testing, System testing, Reliability.
+
+MODULE – VI
+Management: SW cost estimation: Estimation techniques, Algorithmic cost modeling, Project duration and staffing.
+Quality Management: Quality assurance and standards, Quality planning, Quality control.
+
+MODULE – VII
+Software Change: Program Evolution Dynamic, S/W Maintenance in detail. 
+
+Text Book:
+1. I. Sommerville : Software Engineering,  Pearson Education Publication, 7th ed. 
+
+Reference Book:
+1. R. S. Pressman: Software Engineering: A Practiioners Approach, 5th Edn., TMA, New Delhi.
+2. J. F. Peters & W. Pedrycz– Software Engineering, John Wiley & Sons,Inc. 2000
+3. A.Behforooz & F.J. Hudson – Software Engineering Fundamentals, Oxford Univ. Press, New York, 2000.		
