@@ -1,0 +1,55 @@
+MODULE -I
+          Introduction to Compiling: Compilers, 
+          Analysis of the source program, 
+          the phase of a compiler, 
+          Cousins of the compiler, 
+          the grouping of phases, 
+          Compiler-constructions tools.
+
+MODULE -II
+          A Simple One-Pass Compiler: Syntax definition, 
+          Syntax-directed translation, 
+          Parsing, 
+          A translator for simple expressions, 
+          Lexical analysis, 
+          Incorporating a symbol table, 
+          Abstract stack machines.
+
+MODULE-III
+          Lexical Analysis: The role of the lexical analyzer, 
+          Input buffering, 
+          Specification of tokens, 
+          Recognition of tokens, 
+          A language of specifying lexical analyzers, 
+          Design of a lexical analyzer generator.
+
+MODULE –IV
+          Syntax Analysis: The role of the parser, 
+          writing a grammar, 
+          Top-down parsing; 
+          Bottom-up parsing, 
+          Operator-precedence parsing, 
+          LR parsers, 
+          Using ambiguous grammars, 
+          Parser generators.
+
+MODULE V 
+Syntax-Directed Translation: Syntax-direct definitions, Constraction of syntax trees, Bottom-up evaluation of S-, attributed definitions, L-attributed definitions, and Top-down translation.
+Type Checking: Type systems, Specification of a simple type checker.
+
+MODULE VI
+Run-Time Environments: Source language issues, Storage organization, Storage-allocation strategies, Access to nonlocal names, Parameter passing, Symbol tables, Language facilities for dynamic storage allocation, Dynamic storage allocation techniques.
+
+MODULE VII
+Intermediate Code Generation: Intermediate languages, Declarations, Assignment statements, Boolean expressions.
+Code Generation: Issues in the design of a code generator, Target machine, Run-time storage management, Basic blocks and flow graphs.
+Code Optimization: Introduction, The Principle sources of optimization.
+
+Text Book:
+1.            A.V.Aho, R. Sethi et.al.- Compilers Principles, Techniques, and Tools, 2nd Edition, Pearson Education,  
+               New Delhi, 2006
+
+Reference Books:
+1.  	A.I.Holub -Compiler Design in C, Prentice Hall of India, New Delhi, 1995
+2.  	J.P. Tremblay - The Theory and Practical of Compiler Writing, McGraw Hill, Singapore, 1993. 
+3.            K.C. Louden- Compiler Construction: Principles and Practice, Thomson Learning, New Delhi, 2005.
