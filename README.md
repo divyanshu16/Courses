@@ -1,2 +1,1 @@
-# Courses
-# Courses
+Syllabus of Sem-6
