@@ -24,14 +24,8 @@ MODULE-III
           Design of a lexical analyzer generator.
 
 MODULE –IV
-          Syntax Analysis: The role of the parser, 
-          writing a grammar, 
-          Top-down parsing; 
-          Bottom-up parsing, 
-          Operator-precedence parsing, 
-          LR parsers, 
-          Using ambiguous grammars, 
-          Parser generators.
+          Syntax Analysis: The role of the parser, writing a grammar, Top-down parsing; Bottom-up parsing, 
+          Operator-precedence parsing, LR parsers, Using ambiguous grammars, Parser generators.
 
 MODULE V 
 Syntax-Directed Translation: Syntax-direct definitions, Constraction of syntax trees, Bottom-up evaluation of S-, attributed definitions, L-attributed definitions, and Top-down translation.
