@@ -1,0 +1,54 @@
+Module-I
+        Introduction and Overview of Graphics Systems:- Use of Computer graphics, 
+        Video Display Devices, 
+        Refresh Cathode-Ray Tubes, 
+        Raster and Random Scan Displays, 
+        Colour CRT Monitors, 
+        Direct View Storage Tubes, 
+        Flat Panel Displays, 
+        Three-Dimensional Viewing Devices, 
+        Stereoscopic & Virtual Reality Systems, 
+        Raster and Random Scan Systems, 
+        Different Input and Hard Copy Devices, 
+        Graphics Softwares.
+
+Module-II
+        Output Primitives: - Points and Lines, 
+        Line Drawing Algorithms (DDA & Bresenham’s), 
+        Circle and Ellipse Generating Algorithms, 
+        Conic Sections.
+
+Module-III
+        Two-Dimensional Geometric Transformations:- Different types of transformations and their matrix representations, 
+        Homogeneous Coordinates, 
+        Composite Transformations,
+        transformations between Coordinate Systems, 
+        Affine transformations, 
+        Window-to-Viewport Coordinate transformation, 
+        Clipping-Point,
+        Line, Polygon,
+        Curve and Text Clipping.
+
+Module-IV
+Three-Dimensional Concepts and Object Representation:- Three Dimensional Display Methods, Polygon Surfaces, Curved Lines & Surfaces, Quadric Surfaces, Spline Representations, Cubic Spline interpolation methods, Bezier Curves and Surfaces.
+
+Module-V
+Three Dimensional Transformations and Viewing: Translation, Rotation, Scaling, Reflection, Shears, Composite Transformations, Projections- Parallel and Perspective, Projection Transformations, Clipping.
+
+Module-VI
+Visible Surface Detection Methods: Classification of Visible Surface Detection Algorithms, Back Face Detection, Depth Buffer Method, A-Buffer Method, Scan-Line Method, Depth Sorting Method, BSP-Tree Method & Area Subdivision Method. Polygon- Rendering Methods.
+
+Module-VII
+Introduction to Multimedia Systems Design:
+An Introduction – Multimedia applications – Multimedia System Architecture – Defining objects for Multimedia systems – Multimedia Data interface standards – Multimedia Databases
+Compression & Decompression – Data & File Format standards – Multimedia I/O technologies - Digital voice and audio – video image and animation – Full motion video – Multimedia Authoring & User Interface – Hypermedia messaging - 
+
+
+Text Book: 
+1. D. Hearn & M.P. Baker - Computer Graphics, 2/e , Pearson Education, New Delhi, 2005
+2. Prabat K Andleigh and Kiran Thakrar, “Multimedia Systems and Design”, PHI, 2005
+
+Reference Books:
+1. W.M. Newman. et. al.- Principle of Interactive Computer Graphics,  Mc Graw Hill Publication, New Delhi, 1995.
+2. S. Harrington -Computer Graphics- A Programming Approach, Mc Graw Hill Publication, New Delhi, 1994.
+3. J.D. Foley et. al- A Fundamental of Computer Graphics Addition Wesley, London, 1993.   
